@@ -1,7 +1,7 @@
 const I18N = {};
 
 I18N.BackupRestored = "[% c.lh("Backup restored!") %]";
-I18N.BackupFailed = "[% c.lh("An error occured while restoring the backup.<br/> Please check the server logs and that your JSON is correctly formatted.") %]";
+I18N.BackupFailed = "[% c.lh("An error occured while restoring the backup.<br> Please check the server logs and that your JSON is correctly formatted.") %]";
 
 I18N.ArchiveListLoadFailure = "[% c.lh("Couldn't load the complete archive list! Please reload the page.") %]";
 I18N.TagStatsLoadFailure = "[% c.lh("Couldn't load the tag statistics! Please reload the page.") %]";
@@ -59,7 +59,7 @@ I18N.ContentRescanError = "[% c.lh("Error starting content folder rescan:") %]";
 I18N.ShinobuStatusError = "[% c.lh("Error while querying Shinobu status:") %]";
 
 I18N.EditHelpTitle = "[% c.lh("About Plugins") %]";
-I18N.EditHelp = "[% c.lh("You can use plugins to automatically fetch metadata for this archive. <br/> Just select a plugin from the dropdown and hit Go! <br/> Some plugins might provide an optional argument for you to specify. If that's the case, a textbox will be available to input said argument.") %]";
+I18N.EditHelp = "[% c.lh("You can use plugins to automatically fetch metadata for this archive. <br> Just select a plugin from the dropdown and hit Go! <br> Some plugins might provide an optional argument for you to specify. If that's the case, a textbox will be available to input said argument.") %]";
 I18N.EditMetadataSaved = "[% c.lh("Metadata saved!") %]";
 I18N.EditMetadataError = "[% c.lh("Error saving archive metadata") %]";
 I18N.EditFetchTagError = "[% c.lh("Error while fetching tags") %]";
@@ -151,7 +151,7 @@ I18N.RegenThumbnailStarted = "[% c.lh("Queued up a job to regenerate thumbnails!
 I18N.RegenThumbnailSuccess = "[% c.lh("All thumbnails generated! Errors will be listed below if there were any.") %]";
 I18N.AddedToCategory = (id, cat) => `[% c.lh("Added \${id} to category \${cat}!") %]`;
 I18N.RemovedFromCategory = (id, cat) => `[% c.lh("Removed \${id} from category \${cat}!") %]`;
-I18N.MissingFileDeletion = "[% c.lh("Couldn't delete archive file. <br/> (Maybe it has already been deleted beforehand?)") %]";
+I18N.MissingFileDeletion = "[% c.lh("Couldn't delete archive file. <br> (Maybe it has already been deleted beforehand?)") %]";
 I18N.MissingFileDeletionError = "[% c.lh("Archive metadata has been deleted properly. <br> Please delete the file manually before returning to the archive index.") %]";
 I18N.ArchiveDeleted = "[% c.lh("Archive successfully deleted. Redirecting you...") %]";
 I18N.ArchiveDeletedError = "[% c.lh("Error while deleting archive") %]";

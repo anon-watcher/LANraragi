@@ -46,7 +46,7 @@
 		[% c.lh("You can backup your existing database here, or restore an existing backup.") %]<br><br>
 		[% c.lh("Backuping allows you to download a JSON file containing all your categories and archive IDs, and their matching metadata.") %]<br>
 		[% c.lh("Restoring from a backup will restore this metadata, <b>for IDs which already exist in your database.</b>") %]<br>
-		[% c.lh("(Categories will always be restored)") %]</br>
+		[% c.lh("(Categories will always be restored)") %]<br>
 
 		<table style='margin:auto; font-size:9pt; margin-top:25px; text-align:center;'>
 			<tbody id='files'>
@@ -66,7 +66,7 @@
 					</td>
 				</tr>
 		</table>
-		<br /><br />
+		<br><br>
 
 		<span style='margin:auto; font-size:9pt; width: 80%; text-align:center;'>
 

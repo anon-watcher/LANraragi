@@ -174,7 +174,7 @@
 				</div>
 
 				<div class="tag-options" style="text-align:center">
-					<br /><br />
+					<br><br>
 					<input type='button' id="check-uncheck" value='[% c.lh("Check/Uncheck all") %]' class='stdbtn' checked='false'>
 					<input type='button' id="start-batch" value='[% c.lh("Start Task") %]' class='stdbtn'>
 

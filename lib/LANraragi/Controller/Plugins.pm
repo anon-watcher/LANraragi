@@ -245,7 +245,7 @@ sub process_upload {
                     name      => $file->filename,
                     success   => 0,
                     error     => "Could not load namespace $pluginclass! "
-                      . "Your Plugin might not be compiling properly. <br/>"
+                      . "Your Plugin might not be compiling properly. <br>"
                       . "Here's an error log: <pre>$@</pre>"
                 }
             );

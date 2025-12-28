@@ -77,7 +77,7 @@
         <input id="localprogress" name="localprogress" class="fa" type="checkbox" checked> [% ELSE %]
         <input id="localprogress" name="localprogress" class="fa" type="checkbox"> [% END %]
         <label for="localprogress">
-            <br>[% c.lh("Enabling this option will save reading progression on the browser (through localStorage) instead of the server.") %] <br />
+            <br>[% c.lh("Enabling this option will save reading progression on the browser (through localStorage) instead of the server.") %] <br>
             [% c.lh("Consider toggling this option if you're sharing the LANraragi instance with multiple users!") %]
         </label>
     </td>
@@ -92,8 +92,8 @@
         <input id="authprogress" name="authprogress" class="fa" type="checkbox" checked> [% ELSE %]
         <input id="authprogress" name="authprogress" class="fa" type="checkbox"> [% END %]
         <label for="authprogress">
-            <br>[% c.lh("If enabled, server-side progress will only be saved if you're logged in with a password, and will override clientside progress. This allows guests to browse without affecting the main user's progress.") %] <br />
-            [% c.lh("Combine with clientside progress tracking to allow unauthenticated users to track progress locally.") %] <br />
+            <br>[% c.lh("If enabled, server-side progress will only be saved if you're logged in with a password, and will override clientside progress. This allows guests to browse without affecting the main user's progress.") %] <br>
+            [% c.lh("Combine with clientside progress tracking to allow unauthenticated users to track progress locally.") %] <br>
             [% c.lh("Fully effective after restarting LANraragi.") %]
         </label>
     </td>
@@ -108,7 +108,7 @@
         <input id="devmode" name="devmode" class="fa" type="checkbox" checked> [% ELSE %]
         <input id="devmode" name="devmode" class="fa" type="checkbox"> [% END %]
         <label for="devmode">
-            <br>[% c.lh("Enabling Debug Mode will show more logs and disable update nagging.") %] <br />
+            <br>[% c.lh("Enabling Debug Mode will show more logs and disable update nagging.") %] <br>
             [% c.lh("Fully effective after restarting LANraragi.") %]
         </label>
     </td>

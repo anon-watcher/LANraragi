@@ -727,8 +727,8 @@ msgstr "你这个超级大笨蛋竟然在用默认密码"
 
 msgid "Login with password \"kamimamita\" and change that shit on the double. ...Or just disable it! Why not check the configuration options afterwards, while you\'re at it?"
 msgstr ""
-"使用默认密码\"kamimamita\"<a href=\"/login\">登录</a><br/>然后立刻<a href="
-"\"/config\">改掉这坨史一样的密码</a>。<br/>...或者干脆禁用掉! <br/"
+"使用默认密码\"kamimamita\"<a href=\"/login\">登录</a><br>然后立刻<a href="
+"\"/config\">改掉这坨史一样的密码</a>。<br>...或者干脆禁用掉! <br/"
 ">为什么不顺便检查一下配置选项呢？"
 
 # ------End of Index.html.tt2------
@@ -1147,8 +1147,8 @@ msgstr "当文件缺失，或某些数据（如总页数）异常，<br>点击�
 msgid "Backup restored!"
 msgstr "还原备份成功！"
 
-msgid "An error occured while restoring the backup.<br/> Please check the server logs and that your JSON is correctly formatted."
-msgstr "恢复备份时出错。<br/>请查看服务器日志并检查JSON格式是否正确。"
+msgid "An error occured while restoring the backup.<br> Please check the server logs and that your JSON is correctly formatted."
+msgstr "恢复备份时出错。<br>请查看服务器日志并检查JSON格式是否正确。"
 
 msgid "Couldn't load the complete archive list! Please reload the page."
 msgstr "无法加载完整档案列表！请刷新页面。"
@@ -1294,9 +1294,9 @@ msgstr "查询 Shinobu 状态时出错："
 msgid "About Plugins"
 msgstr "关于插件"
 
-msgid "You can use plugins to automatically fetch metadata for this archive. <br/> Just select a plugin from the dropdown and hit Go! <br/> Some plugins might provide an optional argument for you to specify. If that's the case, a textbox will be available to input said argument."
+msgid "You can use plugins to automatically fetch metadata for this archive. <br> Just select a plugin from the dropdown and hit Go! <br> Some plugins might provide an optional argument for you to specify. If that's the case, a textbox will be available to input said argument."
 msgstr ""
-"可以通过插件自动获取此档案的元数据。<br/>从下拉框中选择插件并点击开始！<br/"
+"可以通过插件自动获取此档案的元数据。<br>从下拉框中选择插件并点击开始！<br/"
 ">有些插件可能需要设置额外的参数。这种情况下，会有一个文本框用于输入参数。"
 
 msgid "Metadata saved!"
@@ -1541,8 +1541,8 @@ msgstr "${id} 已添加到分类 ${cat}！"
 msgid "Removed \${id} from category \${cat}!"
 msgstr "${id} 已移出分类 ${cat}！"
 
-msgid "Couldn't delete archive file. <br/> (Maybe it has already been deleted beforehand?)"
-msgstr "无法删除档案文件。<br/>（可能它之前已被删除？）"
+msgid "Couldn't delete archive file. <br> (Maybe it has already been deleted beforehand?)"
+msgstr "无法删除档案文件。<br>（可能它之前已被删除？）"
 
 msgid "Archive metadata has been deleted properly. <br> Please delete the file manually before returning to the archive index."
 msgstr "档案元数据已删除。<br>在返回档案列表前请手动删除文件。"

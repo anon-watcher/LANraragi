@@ -130,7 +130,7 @@
                         [% END %]
                     </div>
 
-                    <br />
+                    <br>
                     <span>[% c.lh("Add to : ") %]</span>
                     <select id="category" class="favtag-btn" style="width:200px; margin-right: 8px">
                         <option selected value="">[% c.lh(" -- No Category -- ") %]</option>

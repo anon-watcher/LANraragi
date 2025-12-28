@@ -52,7 +52,7 @@ sub plugin_info {
             },
             {   type => "bool",
                 desc =>
-                  "Capture everything you find between a pair of parentheses and make it available under the \"${PLUGIN_TAG_NS}\" namespace<BR />"
+                  "Capture everything you find between a pair of parentheses and make it available under the \"${PLUGIN_TAG_NS}\" namespace<br>"
                   . "(use this in conjunction with Tag Rules)"
             }
         ],

@@ -761,7 +761,7 @@ msgstr "기본 비밀번호를 사용하고 있다니 완전 바카로군요"
 msgid "Login with password \"kamimamita\" and change that shit on the double. ...Or just disable it! Why not check the configuration options afterwards, while you\'re at it?"
 msgstr ""
 "비밀번호 \"kamimamita\"로 <a href=\"/login\">로그인</a>하고 비밀번호 <a href="
-"\"/config\">좀 바꾸세요</a>.<br/> ...아니면 그냥 비활성화 하세요! <br/"
+"\"/config\">좀 바꾸세요</a>.<br> ...아니면 그냥 비활성화 하세요! <br/"
 ">비밀번호를 바꾸고 이왕 하는 김에 설정 옵션도 확인해 보는 것은 어때요? "
 
 # ------End of Index.html.tt2------
@@ -1195,8 +1195,8 @@ msgstr ""
 msgid "Backup restored!"
 msgstr "백업 복원됨!"
 
-msgid "An error occured while restoring the backup.<br/> Please check the server logs and that your JSON is correctly formatted."
-msgstr "백업 복원 중 오류가 발생했습니다.<br/> 서버 로그를 확인하고 JSON 형식이 "
+msgid "An error occured while restoring the backup.<br> Please check the server logs and that your JSON is correctly formatted."
+msgstr "백업 복원 중 오류가 발생했습니다.<br> 서버 로그를 확인하고 JSON 형식이 "
 "올바른지 확인하세요."
 
 msgid "Couldn't load the complete archive list! Please reload the page."
@@ -1343,10 +1343,10 @@ msgstr "Shinobu 상태 조회 중 오류가 발생했습니다:"
 msgid "About Plugins"
 msgstr "플러그인 정보"
 
-msgid "You can use plugins to automatically fetch metadata for this archive. <br/> Just select a plugin from the dropdown and hit Go! <br/> Some plugins might provide an optional argument for you to specify. If that's the case, a textbox will be available to input said argument."
+msgid "You can use plugins to automatically fetch metadata for this archive. <br> Just select a plugin from the dropdown and hit Go! <br> Some plugins might provide an optional argument for you to specify. If that's the case, a textbox will be available to input said argument."
 msgstr ""
 "플러그인을 사용하여 이 아카이브에 대한 메타데이터를 자동으로 가져올 수 "
-"있습니다. <br/> 드롭다운에서 플러그인을 선택하고 시작! 을 클릭하세요. <br/> "
+"있습니다. <br> 드롭다운에서 플러그인을 선택하고 시작! 을 클릭하세요. <br> "
 "일부 플러그인은 선택적 인수를 제공할 수 있습니다. 그런 경우 텍스트 상자가 "
 "있어 해당 인수를 입력할 수 있습니다."
 
@@ -1606,8 +1606,8 @@ msgstr "${id}를 ${cat} 카테고리에 추가했습니다!"
 msgid "Removed \${id} from category \${cat}!"
 msgstr "${id}를 ${cat} 카테고리에서 제거했습니다!"
 
-msgid "Couldn't delete archive file. <br/> (Maybe it has already been deleted beforehand?)"
-msgstr "아카이브 파일을 삭제할 수 없습니다. <br/> (이미 삭제되었을 지도?)"
+msgid "Couldn't delete archive file. <br> (Maybe it has already been deleted beforehand?)"
+msgstr "아카이브 파일을 삭제할 수 없습니다. <br> (이미 삭제되었을 지도?)"
 
 msgid "Archive metadata has been deleted properly. <br> Please delete the file manually before returning to the archive index."
 msgstr "아카이브 메타데이터가 제대로 삭제되었습니다. <br> 아카이브 인덱스로 돌아가기 "

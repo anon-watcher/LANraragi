@@ -1150,7 +1150,7 @@ msgstr ""
 msgid "Backup restored!"
 msgstr ""
 
-msgid "An error occured while restoring the backup.<br/> Please check the server logs and that your JSON is correctly formatted."
+msgid "An error occured while restoring the backup.<br> Please check the server logs and that your JSON is correctly formatted."
 msgstr ""
 
 msgid "Couldn't load the complete archive list! Please reload the page."
@@ -1294,7 +1294,7 @@ msgstr ""
 msgid "About Plugins"
 msgstr ""
 
-msgid "You can use plugins to automatically fetch metadata for this archive. <br/> Just select a plugin from the dropdown and hit Go! <br/> Some plugins might provide an optional argument for you to specify. If that's the case, a textbox will be available to input said argument."
+msgid "You can use plugins to automatically fetch metadata for this archive. <br> Just select a plugin from the dropdown and hit Go! <br> Some plugins might provide an optional argument for you to specify. If that's the case, a textbox will be available to input said argument."
 msgstr ""
 
 msgid "Metadata saved!"
@@ -1541,7 +1541,7 @@ msgstr ""
 msgid "Removed \${id} from category \${cat}!"
 msgstr ""
 
-msgid "Couldn't delete archive file. <br/> (Maybe it has already been deleted beforehand?)"
+msgid "Couldn't delete archive file. <br> (Maybe it has already been deleted beforehand?)"
 msgstr ""
 
 msgid "Archive metadata has been deleted properly. <br> Please delete the file manually before returning to the archive index."

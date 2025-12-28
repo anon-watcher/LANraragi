@@ -27,7 +27,7 @@
     </td>
     <td class="config-td">
         <input class="stdinput" style="width:100%" maxlength="255" size="20" name="newpassword2" type="password">
-        <br> [% c.lh("Only edit these fields if you want to change your password.") %] <br />
+        <br> [% c.lh("Only edit these fields if you want to change your password.") %] <br>
         [% c.lh("The one already stored will be used otherwise.") %]
     </td>
 </tr>
@@ -41,7 +41,7 @@
         <input id="nofunmode" name="nofunmode" class="fa" type="checkbox" checked> [% ELSE %]
         <input id="nofunmode" name="nofunmode" class="fa" type="checkbox"> [% END %]
         <label for="nofunmode">
-            <br>[% c.lh("Enabling No-Fun Mode will lock reading archives behind the password as well.") %] <br />
+            <br>[% c.lh("Enabling No-Fun Mode will lock reading archives behind the password as well.") %] <br>
             [% c.lh("Fully effective after restarting LANraragi.") %]
         </label>
     </td>
@@ -54,7 +54,7 @@
     <td class="config-td">
         <input id="apikey" class="stdinput" style="width:100%" maxlength="255" size="20" value="[% apikey %]"
             name="apikey" type="text">
-        <br>[% c.lh("If you wish to use the Client API and have a password, you'll have to set a key here.") %]<br />
+        <br>[% c.lh("If you wish to use the Client API and have a password, you'll have to set a key here.") %]<br>
         [% c.lh("Empty keys will <b>not</b> work!") %]
         <br>[% c.lh("This key will need to be provided in every protected API call as the <i>Authorization</i> header.") %]
     </td>

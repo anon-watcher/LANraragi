@@ -16,9 +16,9 @@
 <body style='background: none repeat scroll 0% 0% brown; color: white; font-family: sans-serif; text-align: center'>
 
 	<img src='/img/flubbed.gif' />
-	<br />
+	<br>
 	<h2>I flubbed it while rendering your page!</h2>
-	It's likely there's a bug with the server at this point.<br />
+	It's likely there's a bug with the server at this point.<br>
 	<p>
 		<%= $exception->message %>
 	</p>

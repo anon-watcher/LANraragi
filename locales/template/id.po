@@ -837,8 +837,8 @@ msgstr "Anda menggunakan kata sandi asali dan itu sangat baka"
 msgid "Login with password \"kamimamita\" and change that shit on the double. ...Or just disable it! Why not check the configuration options afterwards, while you\'re at it?"
 msgstr ""
 "<a href=\"/login\">Log masuk</a> menggunakan kata sandi \"kamimamita\", lalu "
-"<a href=\"/config\">ganti secepatnya</a>.<br/>... Atau nonaktifkan saja "
-"fiturnya!<br/>Selagi di sana, periksa juga pilihan konfigurasi lainnya. "
+"<a href=\"/config\">ganti secepatnya</a>.<br>... Atau nonaktifkan saja "
+"fiturnya!<br>Selagi di sana, periksa juga pilihan konfigurasi lainnya. "
 
 # ------End of Index.html.tt2------
 # ------Start of Login.html.tt2------
@@ -1297,9 +1297,9 @@ msgstr ""
 msgid "Backup restored!"
 msgstr "Cadangan dipulihkan!"
 
-msgid "An error occured while restoring the backup.<br/> Please check the server logs and that your JSON is correctly formatted."
+msgid "An error occured while restoring the backup.<br> Please check the server logs and that your JSON is correctly formatted."
 msgstr ""
-"Terjadi galat memulihkan cadangan.<br/> Harap periksa pencatatan peladen dan "
+"Terjadi galat memulihkan cadangan.<br> Harap periksa pencatatan peladen dan "
 "pastikan JSON Anda diformat dengan benar."
 
 msgid "Couldn't load the complete archive list! Please reload the page."
@@ -1449,10 +1449,10 @@ msgstr "Galat memeriksa status Shinobu:"
 msgid "About Plugins"
 msgstr "Tentang Plugin"
 
-msgid "You can use plugins to automatically fetch metadata for this archive. <br/> Just select a plugin from the dropdown and hit Go! <br/> Some plugins might provide an optional argument for you to specify. If that's the case, a textbox will be available to input said argument."
+msgid "You can use plugins to automatically fetch metadata for this archive. <br> Just select a plugin from the dropdown and hit Go! <br> Some plugins might provide an optional argument for you to specify. If that's the case, a textbox will be available to input said argument."
 msgstr ""
 "Anda dapat menggunakan plugin untuk mengambil metadata arsip ini secara "
-"otomatis. <br/> Pilih plugin dalam daftar tarik-turun dan klik Mulai! <br/> "
+"otomatis. <br> Pilih plugin dalam daftar tarik-turun dan klik Mulai! <br> "
 "Beberapa plugin mungkin memerlukan argumen tambahan. Jika diperlukan, kotak "
 "teks akan muncul untuk memasukkan argumen tersebut."
 
@@ -1728,9 +1728,9 @@ msgstr "Menambahkan ${id} ke kategori ${cat}!"
 msgid "Removed \${id} from category \${cat}!"
 msgstr "Menghapus ${id} dari kategori ${cat}!"
 
-msgid "Couldn't delete archive file. <br/> (Maybe it has already been deleted beforehand?)"
+msgid "Couldn't delete archive file. <br> (Maybe it has already been deleted beforehand?)"
 msgstr ""
-"Tidak dapat menghapus berkas arsip. <br/> (Mungkin telah dihapus sebelumnya?)"
+"Tidak dapat menghapus berkas arsip. <br> (Mungkin telah dihapus sebelumnya?)"
 
 msgid "Archive metadata has been deleted properly. <br> Please delete the file manually before returning to the archive index."
 msgstr ""

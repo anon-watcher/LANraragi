@@ -1156,8 +1156,8 @@ msgstr "若出現檔案遺失 <br>或某些資料異常（例如總頁數量異�
 msgid "Backup restored!"
 msgstr "備份還原成功！"
 
-msgid "An error occured while restoring the backup.<br/> Please check the server logs and that your JSON is correctly formatted."
-msgstr "還原備份時發生錯誤。<br/>請檢查伺服器日誌，並確認 JSON 格式正確。"
+msgid "An error occured while restoring the backup.<br> Please check the server logs and that your JSON is correctly formatted."
+msgstr "還原備份時發生錯誤。<br>請檢查伺服器日誌，並確認 JSON 格式正確。"
 
 msgid "Couldn't load the complete archive list! Please reload the page."
 msgstr "無法載入完整的檔案清單！請重新整理頁面。"
@@ -1303,7 +1303,7 @@ msgstr "查詢 Shinobu 狀態時發生錯誤："
 msgid "About Plugins"
 msgstr "關於外掛"
 
-msgid "You can use plugins to automatically fetch metadata for this archive. <br/> Just select a plugin from the dropdown and hit Go! <br/> Some plugins might provide an optional argument for you to specify. If that's the case, a textbox will be available to input said argument."
+msgid "You can use plugins to automatically fetch metadata for this archive. <br> Just select a plugin from the dropdown and hit Go! <br> Some plugins might provide an optional argument for you to specify. If that's the case, a textbox will be available to input said argument."
 msgstr ""
 "您可以使用外掛自動抓取此檔案的中繼資料。<br/"
 ">只要從下拉選單中選擇一個外掛並按下 '執行！'<br/"
@@ -1557,8 +1557,8 @@ msgstr "已將 ${id} 加入分類 ${cat}！"
 msgid "Removed \${id} from category \${cat}!"
 msgstr "已從分類 ${cat} 中移除 ${id}！"
 
-msgid "Couldn't delete archive file. <br/> (Maybe it has already been deleted beforehand?)"
-msgstr "無法刪除檔案。<br/>（可能已事先被刪除？）"
+msgid "Couldn't delete archive file. <br> (Maybe it has already been deleted beforehand?)"
+msgstr "無法刪除檔案。<br>（可能已事先被刪除？）"
 
 msgid "Archive metadata has been deleted properly. <br> Please delete the file manually before returning to the archive index."
 msgstr "檔案的中繼資料已成功刪除。<br>請在返回列表前手動刪除檔案。"

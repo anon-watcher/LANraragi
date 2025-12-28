@@ -97,7 +97,7 @@
 					</tr>
 
 					<tr>
-						<td style='text-align:left; width:100px; vertical-align:top'>[% c.lh("Import Tags from Plugin :") %] <br />
+						<td style='text-align:left; width:100px; vertical-align:top'>[% c.lh("Import Tags from Plugin :") %] <br>
 							<input type='button' name='tag_import' value='[% c.lh("Help") %]' id="show-help" class='stdbtn'
 								style='min-width:90px;'></input>
 						</td>
@@ -111,25 +111,25 @@
 							</select>
 
 							<input class='stdbtn' type='button' style="min-width:90px;" id="run-plugin" value="[% c.lh("Go!") %]" />
-							<br />
+							<br>
 
-							<span id="arg_label">[% plugins.first.oneshot_arg %] :</span> <br />
+							<span id="arg_label">[% plugins.first.oneshot_arg %] :</span> <br>
 							<input id='arg' class='stdinput' type='text' style='width:98%; max-width:768px' size='20'
 								value="">
 
-							<br />
+							<br>
 
 							<i class='fa fa-2x fa-exclamation-circle' style='margin-top:4px'></i> [% c.lh("Using a Plugin will save any modifications to archive metadata you might have made !") %]
 						</td>
 					</tr>
 
 					<tr>
-						<td colspan='2' style='text-align:center'> <br />
+						<td colspan='2' style='text-align:center'> <br>
 							<input class='stdbtn' type='button' id="save-metadata" value='[% c.lh("Save Metadata") %]' />
 							<input class='stdbtn' type='button' id="delete-archive" value='[% c.lh("Delete Archive") %]' />
 							<input class='stdbtn' type='button' id="read-archive" value='[% c.lh("Read Archive") %]' />
 							<input id='goback' class='stdbtn' type='button' value='[% c.lh("Return to Library") %]' />
-							<br />
+							<br>
 						</td>
 					</tr>
 				</tbody>
